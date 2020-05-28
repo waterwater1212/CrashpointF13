@@ -1,3 +1,4 @@
+/*
 /datum/surgery/gender_reassignment_lower
 	name = "gender reassignment - lower surgery"
 	species = list(/mob/living/carbon/human)
@@ -41,7 +42,7 @@
 	H.has_vagina = FALSE
 	target.regenerate_icons()
 	return 1
-
+*/
 /datum/surgery/castration
 	name = "castration"
 	species = list(/mob/living/carbon/human)
@@ -79,7 +80,7 @@
 	target.regenerate_icons()
 	return 1
 
-
+/*
 /datum/surgery/gender_reassignment_top
 	name = "gender reassignment - top surgery"
 	species = list(/mob/living/carbon/human)
@@ -178,3 +179,4 @@
 	H.gender_ambiguous = 1
 	target.regenerate_icons()
 	return 1
+*/
