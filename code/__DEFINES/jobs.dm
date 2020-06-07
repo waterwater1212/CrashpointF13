@@ -88,8 +88,9 @@
 #define F13KNIGHT		(1<<5)
 #define F13HEADSCRIBE	(1<<6)
 #define F13SCRIBE		(1<<7)
-#define F13INITIATE		(1<<8)
-#define VERTIPILOT		(1<<9)
+#define F13INITIATESCRIBE	(1<<8)
+#define F13INITIATEKNIGHT   (1<<9)
+#define VERTIPILOT		(1<<10)
 
 #define DEN				(1<<6)
 
