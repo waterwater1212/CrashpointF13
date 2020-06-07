@@ -47,8 +47,11 @@ Elder
 	selection_color = "#7f8c8d"
 	req_admin_notify = 1
 	exp_requirements = 2700
-	total_positions = 0
-	spawn_positions = 0
+	description = "You are the Elder of this Brotherhood installation. You're here to ensure that the chapter lives on, and, with that, you must maintain the security of those in your charge. Cooperate with the Paladin and Head Scribe to ensure technology is safeguarded from prying wastrel hands. Additionally, you should make certain that your presence or location in the region is made unknown to any outsiders."
+	forbids = "The Brotherhood of Steel Forbids: Unethical human experimentation. Violence beyond what is needed to accomplish Brotherhood goals."
+	enforces = "The Brotherhood of Steel Expects: Obeying the Chain That - Binds your direct superior. Collection and safeguarding of technology from the wasteland. Experimentation and research."
+	total_positions = 1
+	spawn_positions = 1
 	outfit = /datum/outfit/job/bos/f13elder
 
 	access = list(ACCESS_ROBOTICS, ACCESS_BOS, ACCESS_ENGINE_EQUIP, ACCESS_ENGINE, ACCESS_HYDROPONICS, ACCESS_MINERAL_STOREROOM, ACCESS_KITCHEN, ACCESS_BAR, ACCESS_SEC_DOORS)
@@ -65,6 +68,8 @@ Elder
 		/obj/item/kitchen/knife/combat=1, \
 		/obj/item/gun/ballistic/automatic/pistol/n99=1)
 
+/datum/job/bos/f13elder/after_spawn(mob/living/carbon/human/H, mob/M)
+	H.add_quirk("Hard Yards")
 /*
 Paladin
 */
@@ -81,7 +86,7 @@ Paladin
 	enforces = "The Brotherhood of Steel Expects: Obeying the Chain That - Binds your direct superior. Collection and safeguarding of technology from the wasteland. Experimentation and research."
 	supervisors = "the elder"
 	selection_color = "#7f8c8d"
-	exp_requirements = 1800
+	exp_requirements = 1500
 
 	outfit = /datum/outfit/job/bos/f13paladin
 
@@ -157,7 +162,7 @@ Knight
 	enforces = "The Brotherhood of Steel Expects: Obeying the Chain That - Binds your direct superior. Collection and safeguarding of technology from the wasteland. Experimentation and research."
 	supervisors = "the Paladin"
 	selection_color = "#95a5a6"
-	exp_requirements = 900
+	exp_requirements = 780
 
 	outfit = /datum/outfit/job/bos/f13knight
 
@@ -197,7 +202,7 @@ Scribe
 	enforces = "The Brotherhood of Steel Expects: Obeying the Chain That - Binds your direct superior. Collection and safeguarding of technology from the wasteland. Experimentation and research."
 	supervisors = "the Head Scribe"
 	selection_color = "#95a5a6"
-	exp_requirements = 600
+	exp_requirements = 540
 
 	outfit = /datum/outfit/job/bos/f13scribe
 
@@ -235,7 +240,7 @@ Initiate Knight
 	enforces = "The Brotherhood of Steel Expects: Obeying the Chain That - Binds your direct superior. Collection and safeguarding of technology from the wasteland. Experimentation and research."
 	supervisors = "the knights"
 	selection_color = "#95a5a6"
-	exp_requirements = 1800
+	exp_requirements = 1500
 	exp_type = EXP_TYPE_CREW
 
 	outfit = /datum/outfit/job/bos/f13initiateknight
@@ -268,7 +273,7 @@ Initiate Scribe
 	enforces = "The Brotherhood of Steel Expects: Obeying the Chain That - Binds your direct superior. Collection and safeguarding of technology from the wasteland. Experimentation and research."
 	supervisors = "the scribes"
 	selection_color = "#95a5a6"
-	exp_requirements = 1800
+	exp_requirements = 1500
 	exp_type = EXP_TYPE_CREW
 
 	outfit = /datum/outfit/job/bos/f13initiatescribe
