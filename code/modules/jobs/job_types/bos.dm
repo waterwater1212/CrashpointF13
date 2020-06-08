@@ -46,7 +46,7 @@ Elder
 	supervisors = "the high elders"
 	selection_color = "#7f8c8d"
 	req_admin_notify = 1
-	exp_requirements = 2700
+	exp_requirements = 2100
 	description = "You are the Elder of this Brotherhood installation. You're here to ensure that the chapter lives on, and, with that, you must maintain the security of those in your charge. Cooperate with the Paladin and Head Scribe to ensure technology is safeguarded from prying wastrel hands. Additionally, you should make certain that your presence or location in the region is made unknown to any outsiders."
 	forbids = "The Brotherhood of Steel Forbids: Unethical human experimentation. Violence beyond what is needed to accomplish Brotherhood goals."
 	enforces = "The Brotherhood of Steel Expects: Obeying the Chain That - Binds your direct superior. Collection and safeguarding of technology from the wasteland. Experimentation and research."
@@ -86,7 +86,7 @@ Paladin
 	enforces = "The Brotherhood of Steel Expects: Obeying the Chain That - Binds your direct superior. Collection and safeguarding of technology from the wasteland. Experimentation and research."
 	supervisors = "the elder"
 	selection_color = "#7f8c8d"
-	exp_requirements = 1500
+	exp_requirements = 1200
 
 	outfit = /datum/outfit/job/bos/f13paladin
 
