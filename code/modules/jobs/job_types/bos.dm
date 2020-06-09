@@ -53,6 +53,7 @@ Elder
 	total_positions = 1
 	spawn_positions = 1
 	outfit = /datum/outfit/job/bos/f13elder
+	exp_type = EXP_TYPE_BROTHERHOODCMD
 
 	access = list(ACCESS_ROBOTICS, ACCESS_BOS, ACCESS_ENGINE_EQUIP, ACCESS_ENGINE, ACCESS_HYDROPONICS, ACCESS_MINERAL_STOREROOM, ACCESS_KITCHEN, ACCESS_BAR, ACCESS_SEC_DOORS)
 	minimal_access = list(ACCESS_ROBOTICS, ACCESS_BOS, ACCESS_ENGINE_EQUIP, ACCESS_ENGINE, ACCESS_HYDROPONICS, ACCESS_MINERAL_STOREROOM, ACCESS_KITCHEN, ACCESS_BAR, ACCESS_SEC_DOORS)
@@ -88,6 +89,7 @@ Paladin
 	supervisors = "the elder"
 	selection_color = "#7f8c8d"
 	exp_requirements = 1200
+	exp_type = EXP_TYPE_KNIGHT
 
 	outfit = /datum/outfit/job/bos/f13paladin
 
