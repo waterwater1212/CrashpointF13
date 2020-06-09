@@ -1,8 +1,7 @@
 GLOBAL_LIST_INIT(command_positions, list(
     "Elder",
     "Head Scribe",
-    "Sentinel",
-    "Knight-Captain",
+    "Paladin",
     "Legion Centurion",
     "Legion Orator",
     "Priestess of Mars",
@@ -92,17 +91,13 @@ GLOBAL_LIST_INIT(antagonist_whitelist_positions, list(
 
 GLOBAL_LIST_INIT(brotherhood_command_positions, list(
 	"Elder",
-	"Sentinel",
-	"Knight-Captain",
+    "Paladin",
 	"Head Scribe"
 ))
 
 GLOBAL_LIST_INIT(brotherhood_positions, list(
     "Elder",
-	"Sentinel",
-	"Knight-Captain",
 	"Head Scribe",
-	"Senior Paladin",
 	"Paladin",
 	"Knight",
 	"Scribe",
